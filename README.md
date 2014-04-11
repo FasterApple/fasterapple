@@ -2,7 +2,7 @@ English version of README is below.
 
 说明
 ====
-```db```文件夹中的配置文件为BIND9所使用。里面包含了所有FasterApple项目解析所使用的配置文件。欢迎参考、借鉴、使用。
+db文件夹中的配置文件为BIND9所使用。里面包含了所有FasterApple项目解析所使用的配置文件。欢迎参考、借鉴、使用。
 
 使用条款、版权、许可证
 ===================
@@ -13,7 +13,7 @@ English version of README is below.
 
 Instruction
 ===========
-All the BIND9 configuration files that the FasterApple project has used are in ```db``` directory.
+All the BIND9 configuration files that the FasterApple project has used are in db directory.
 
 ToS/Copyright/License
 =====================
