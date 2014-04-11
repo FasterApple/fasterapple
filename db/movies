@@ -1,0 +1,11 @@
+$TTL    86400                                                                    
+@       IN      SOA     apple.com. contact.fasterapple.com.  (
+                                           201202030 ; Serial           
+                                           28800      ; Refresh          
+                                           14400      ; Retry            
+                                           3600000    ; Expire           
+                                           86400 )    ; Minimum
+
+@       IN      NS      resolver2.fasterapple.com.
+@	IN	A	184.50.87.24
+@	IN	A	184.50.87.41

@@ -1,0 +1,18 @@
+$TTL    86400                                                                    
+@       IN      SOA     gc.apple.com. contact.fasterapple.com.  (
+                                           201202181 ; Serial           
+                                           28800      ; Refresh          
+                                           14400      ; Retry            
+                                           3600000    ; Expire           
+                                           86400 )    ; Minimum
+
+@       IN      NS      resolver2.fasterapple.com.
+@	IN	A	17.155.4.0
+init	IN	A	184.50.87.66
+init	IN	A	184.50.87.40
+sandbox	IN	A	23.13.191.192
+service-sandbox	IN	A	17.173.254.21
+service IN	A	17.173.254.11
+service	IN	A	17.173.254.14
+service	IN	A	17.173.254.25
+service	IN	A	17.173.254.28

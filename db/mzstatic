@@ -1,0 +1,24 @@
+$TTL    86400                                                                    
+@       IN      SOA     mzstatic.com. contact.fasterapple.com.  (
+                                           201308291 ; Serial           
+                                           28800      ; Refresh          
+                                           14400      ; Retry            
+                                           3600000    ; Expire           
+                                           86400 )    ; Minimum
+
+@       IN      NS      resolver2.fasterapple.com.
+a1	IN	CNAME	a1.mzstatic.com.ccgslb.com.cn.
+a2	IN	CNAME	a2.mzstatic.com.ccgslb.com.cn.
+a3	IN	CNAME	a3.mzstatic.com.ccgslb.com.cn.
+a4	IN	CNAME	a4.mzstatic.com.ccgslb.com.cn.
+a5	IN	CNAME	a5.mzstatic.com.ccgslb.com.cn.
+a6	IN	A	184.50.87.18
+a6	IN	A	184.50.87.26
+a7	IN	A	184.50.87.16
+a7	IN	A	184.50.87.80
+a8	IN	A	184.50.87.17
+a8	IN	A	184.50.87.73
+r	IN	A	184.50.87.51
+r	IN	A	184.50.87.81
+s	IN	CNAME	s.mzstatic.com.ccgslb.com.cn.
+dzc-metrics	IN	A	23.42.179.205

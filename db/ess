@@ -1,0 +1,18 @@
+$TTL    86400                                                                    
+@       IN      SOA     ess.apple.com. resolver1.fasterapple.com.  (
+                                           201202250 ; Serial           
+                                           28800      ; Refresh          
+                                           14400      ; Retry            
+                                           3600000    ; Expire           
+                                           86400 )    ; Minimum
+
+@       IN      NS      resolver1.fasterapple.com.
+service	IN	A	17.173.255.24
+service1	IN	A	17.173.255.38
+service2	IN	A	17.173.255.33
+static	IN	A	184.50.87.64
+static	IN	A	184.50.87.51
+init	IN	A	184.50.87.56
+init	IN	A	184.50.87.10
+commnat-main	IN	A	17.154.239.222
+commnat-cohort	IN	A	17.173.255.223

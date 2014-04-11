@@ -1,0 +1,8 @@
+/*
+zone "appldnld.apple.com" IN {
+type master;
+file "/usr/local/bind/db/appldnld-chinaunicom";
+allow-update {none;};
+allow-transfer {none;};
+};
+*/
