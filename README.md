@@ -1,6 +1,6 @@
 English version of README is below.
 
-##直接使用DNS服务请将你的DNS服务器设置为42.121.236.241和74.117.62.158
+##请将你的DNS服务器设置为42.121.236.241和74.117.62.158直接使用DNS服务
 
 ##You can set your DNS setting to 42.121.236.241,74.117.62.158 to use the service directly
 
