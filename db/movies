@@ -6,6 +6,6 @@ $TTL    86400
                                            3600000    ; Expire           
                                            86400 )    ; Minimum
 
-@       IN      NS      resolver2.fasterapple.com.
-@	IN	A	184.50.87.24
-@	IN	A	184.50.87.41
+@	IN	NS	resolver2.fasterapple.com.
+@	30	IN	A	184.50.87.24
+@	30	IN	A	184.50.87.41

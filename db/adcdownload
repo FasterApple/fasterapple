@@ -7,5 +7,7 @@ $TTL    86400
                                            86400 )    ; Minimum
 
 @       IN      NS      resolver2.fasterapple.com.
-@	IN	A	184.50.87.57
-@	IN	A	184.50.87.83
+@	1	IN	A	184.50.87.57
+@	1	IN	A	184.50.87.83
+@	1	IN	A	175.45.42.155
+@	1	IN	A	175.45.42.142
