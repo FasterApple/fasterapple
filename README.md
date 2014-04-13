@@ -1,6 +1,6 @@
 English version of README is below.
 
-Now also on GitCafe! Check out:https://gitcafe.com/tonyxue/fasterapple
+Now also on GitCafe! Link:<a href="https://gitcafe.com/tonyxue/fasterapple">https://gitcafe.com/tonyxue/fasterapple</a>
 
 ##请将你的DNS服务器设置为42.121.236.241和74.117.62.158直接使用DNS服务
 
