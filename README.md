@@ -8,7 +8,7 @@ English version of README is below.
 ====
 db文件夹中的配置文件为BIND9所使用。里面包含了所有FasterApple项目解析所使用的配置文件。欢迎参考、借鉴、使用。
 
-可直接在 ```named.conf``` 中使用 ```include``` 将 ```db/zones.conf``` 包含进去即可。
+直接在 ```named.conf``` 中使用 ```include``` 将 ```db/zones.conf``` 包含进去即可。
 
 使用条款、版权、许可证
 ===================
