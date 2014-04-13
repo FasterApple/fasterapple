@@ -12,12 +12,22 @@ db文件夹中的配置文件为BIND9所使用。里面包含了所有FasterAppl
 
 版权没有、翻版不究。
 
+联系方式
+=======
+如有任何问题，请发送邮件至contact@fasterapple.com，谢谢！
+
 
 Instruction
 ===========
 All the BIND9 configuration files that the FasterApple project has used are in db directory.
 
 You can just simply use ```include``` to put ```db/zones.conf``` into your ```named.conf```
+
 ToS/Copyright/License
 =====================
 No ToS, No Copyright, No license.
+
+Contact
+=======
+E-mail:contact@fasterapple.com
+I speak English, Chinese, German and Swedish.
