@@ -1,5 +1,9 @@
 English version of README is below.
 
+##直接使用DNS服务请将你的DNS服务器设置为42.121.236.241和74.117.62.158
+
+##You can set your DNS setting to 42.121.236.241,74.117.62.158 to use the service directly
+
 说明
 ====
 db文件夹中的配置文件为BIND9所使用。里面包含了所有FasterApple项目解析所使用的配置文件。欢迎参考、借鉴、使用。
