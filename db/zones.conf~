@@ -70,56 +70,12 @@ type master;
 file "db/example";
 };
 
-#--------------------------------------------------------------------------
-
-zone "baidu.com" IN {
-type forward;
-forwarders {202.108.22.220;61.135.165.235;220.181.37.10;220.181.38.10; };
-};
-
-zone "google.com" IN {
-type forward;
-forwarders {216.239.32.10;216.239.34.10;216.239.36.10;216.239.38.10; };
-};
-
-zone "google.com.hk" IN {
-type forward;
-forwarders {216.239.32.10;216.239.34.10;216.239.36.10;216.239.38.10; };
-};
-
-zone "gmail.com" IN {
-type forward;
-forwarders {216.239.32.10;216.239.34.10;216.239.36.10;216.239.38.10; };
-};
-
-#-----------------SINA----------------
-zone "weibo.com" IN {
-type forward;
-forwarders {202.106.184.166;61.172.201.254;202.108.44.55;121.14.1.22; };
-};
-
-zone "weibo.cn"	IN {
-type forward;
-forwarders {202.106.184.166;61.172.201.254;202.108.44.55;121.14.1.22; };
-};
-
-zone "sina.com.cn" IN {
-type forward;
-forwarders {202.106.184.166;61.172.201.254;202.108.44.55;121.14.1.22; };
-};
-
-zone "sinajs.cn" IN {
-type forward;
-forwarders {202.106.184.166;61.172.201.254;202.108.44.55; };
-};
-
-zone "sinaimg.cn" IN {
-type forward;
-forwarders {202.106.184.166;61.172.201.254;202.108.44.55; };
-};
-#----------------SINA-----------------
-
 zone "guzzoni.apple.com" IN {
 type master;
 file "db/siri-servers";
+};
+
+zone "resolver2.fasterapple.com"	IN {
+type master;
+file "fasterapple/db/resolver2";
 };
