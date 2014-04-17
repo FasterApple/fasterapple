@@ -21,8 +21,6 @@ file"fasterapple/db/gamecenter";
 zone "appldnld.apple.com" IN {
 type master;
 file "fasterapple/db/appldnld";
-allow-update {none;};
-allow-transfer {none;};
 };
 
 zone "movies.apple.com" IN {
