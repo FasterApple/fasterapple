@@ -1,5 +1,5 @@
 $TTL    86400                                                                    
-@       IN      SOA     apple.com. contact.fasterapple.com.  (
+@       IN      SOA     itunes.apple.com. contact.fasterapple.com.  (
                                            201404171 ; Serial           
                                            28800      ; Refresh          
                                            14400      ; Retry            
