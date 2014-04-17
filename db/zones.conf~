@@ -1,0 +1,125 @@
+#zone "." IN {
+#type redirect;
+#file "fasterapple/db/root.redir";
+#};
+
+zone "arpa" IN {
+type forward;
+forwarders { 198.41.0.4;192.33.4.12;192.5.5.241;192.58.128.30;199.7.83.42; };
+};
+
+zone "phobos.apple.com" IN {
+type master;
+file "fasterapple/db/phobos-chinacache";
+};
+
+zone "gc.apple.com" IN {
+type master;
+file"fasterapple/db/gamecenter";
+};
+
+zone "appldnld.apple.com" IN {
+type master;
+file "fasterapple/db/appldnld";
+allow-update {none;};
+allow-transfer {none;};
+};
+
+zone "movies.apple.com" IN {
+type master;
+file "fasterapple/db/movies";
+};
+
+zone "deimos3.apple.com" IN {
+type master;
+file "fasterapple/db/deimos3";
+};
+
+zone "ess.apple.com" IN {
+type master;
+file "fasterapple/db/ess";
+};
+
+zone "configuration.apple.com" {
+type master;
+file "fasterapple/db/configuration";
+};
+
+zone "mesu.apple.com" {
+type master;
+file "fasterapple/db/mesu";
+};
+
+zone "adcdownload.apple.com" {
+type master;
+file "fasterapple/db/adcdownload";
+};
+
+zone "itunes.apple.com" IN {
+type master;
+file "fasterapple/db/itunes";
+};
+
+zone "mzstatic.com" IN {
+type master;
+file "fasterapple/db/mzstatic";
+};
+
+zone "example.com" IN {
+type master;
+file "db/example";
+};
+
+#--------------------------------------------------------------------------
+
+zone "baidu.com" IN {
+type forward;
+forwarders {202.108.22.220;61.135.165.235;220.181.37.10;220.181.38.10; };
+};
+
+zone "google.com" IN {
+type forward;
+forwarders {216.239.32.10;216.239.34.10;216.239.36.10;216.239.38.10; };
+};
+
+zone "google.com.hk" IN {
+type forward;
+forwarders {216.239.32.10;216.239.34.10;216.239.36.10;216.239.38.10; };
+};
+
+zone "gmail.com" IN {
+type forward;
+forwarders {216.239.32.10;216.239.34.10;216.239.36.10;216.239.38.10; };
+};
+
+#-----------------SINA----------------
+zone "weibo.com" IN {
+type forward;
+forwarders {202.106.184.166;61.172.201.254;202.108.44.55;121.14.1.22; };
+};
+
+zone "weibo.cn"	IN {
+type forward;
+forwarders {202.106.184.166;61.172.201.254;202.108.44.55;121.14.1.22; };
+};
+
+zone "sina.com.cn" IN {
+type forward;
+forwarders {202.106.184.166;61.172.201.254;202.108.44.55;121.14.1.22; };
+};
+
+zone "sinajs.cn" IN {
+type forward;
+forwarders {202.106.184.166;61.172.201.254;202.108.44.55; };
+};
+
+zone "sinaimg.cn" IN {
+type forward;
+forwarders {202.106.184.166;61.172.201.254;202.108.44.55; };
+};
+#----------------SINA-----------------
+
+zone "guzzoni.apple.com" IN {
+type master;
+file "db/siri-servers";
+};

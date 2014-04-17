@@ -7,6 +7,11 @@ $TTL    86400
                                            86400 )    ; Minimum
 
 @	IN	NS	ns7.ccgslb.com.cn.
+@	IN	NS	ns8.ccgslb.com.cn.
+@	IN	NS	ns9.ccgslb.com.cn.
+@	IN	NS	ns13.ccgslb.com.cn.
+@	IN	NS	ns14.ccgslb.com.cn.
+@	IN	A	218.205.72.39
 my       IN      A       23.42.178.217
 c       IN      A       23.42.178.217
 se       IN      CNAME	se.itunes.apple.ccgslb.com.cn.
