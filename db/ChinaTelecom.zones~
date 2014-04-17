@@ -1,4 +1,6 @@
+/*
 zone "itunes.apple.com" IN {
 type master;
 file "fasterapple/db/itunes-tel";
 };
+*/
