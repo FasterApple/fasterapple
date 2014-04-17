@@ -1,12 +1,4 @@
-/*
-zone "appldnld.apple.com" IN {
-type master;
-file "/usr/local/bind/db/appldnld-chinatelecom";
-allow-update {none;};
-allow-transfer {none;};
-};
-*/
-zone	"itunes.apple.com"	IN	{
+zone "itunes.apple.com" IN {
 type master;
 file "fasterapple/db/itunes-tel";
 };
