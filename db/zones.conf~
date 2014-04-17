@@ -53,10 +53,10 @@ type master;
 file "fasterapple/db/adcdownload";
 };
 
-zone "itunes.apple.com" IN {
-type master;
-file "fasterapple/db/itunes";
-};
+#zone "itunes.apple.com" IN {
+#type master;
+#file "fasterapple/db/itunes";
+#};
 
 zone "mzstatic.com" IN {
 type master;

@@ -6,3 +6,7 @@ allow-update {none;};
 allow-transfer {none;};
 };
 */
+zone	"itunes.apple.com"	IN	{
+type master;
+file "fasterapple/db/itunes-tel";
+}
