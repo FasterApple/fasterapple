@@ -9,4 +9,4 @@ $TTL    86400
 @	IN	NS	resolver2.fasterapple.com.
 @	IN	A	116.55.246.137
 @	IN	A	125.65.247.10
-$INCLUDE fasterapple/db/itunes
+$INCLUDE itunes
