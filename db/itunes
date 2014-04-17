@@ -6,7 +6,14 @@ $TTL    86400
                                            3600000    ; Expire           
                                            86400 )    ; Minimum
 
-@	IN	NS	resolver2.fasterapple.com.
+@	IN	NS	nserver2.apple.com.
+@	IN	NS	nserver.apple.com.
+@	IN	NS	nserver3.apple.com.
+@	IN	NS	nserver4.apple.com.
+@	IN	NS	nserver5.apple.com.
+@	IN	NS	nserver6.apple.com.
+@	IN	NS	adns1.apple.com.
+@	IN	NS	adns2.apple.com.
 my       IN      A       23.42.178.217
 c       IN      A       23.42.178.217
 se       IN      CNAME	se.itunes.apple.ccgslb.com.cn.
