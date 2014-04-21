@@ -14,6 +14,7 @@ deimos3	IN	A	184.50.87.10
 deimos3	IN	A	184.50.87.32
 $INCLUDE	db/ess	ess.apple.com.
 $INCLUDE	db/gamecenter	gc.apple.com.
+itunes	IN	CNAME	itunes.apple.ccgslb.com.cn.
 $INCLUDE db/itunes itunes.apple.com.
 mesu	IN	A	184.50.87.26
 mesu	IN	A	184.50.87.66
