@@ -6,5 +6,5 @@ $TTL    86400
                                            3600000    ; Expire           
                                            86400 )    ; Minimum
 
-@       IN      NS      resolver2.fasterapple.com.
+@	IN	NS	resolver2.fasterapple.com.
 @	IN	CNAME	appldnld.apple.ccgslb.com.cn.
