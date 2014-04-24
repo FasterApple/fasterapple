@@ -39,3 +39,7 @@ Contact
 =======
 E-mail:contact@fasterapple.com
 I speak English, Chinese, German and Swedish.
+
+TODO
+====
+- [ ] Solve the issue for other records of Apple.com
