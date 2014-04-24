@@ -7,6 +7,8 @@ $TTL    86400
                                            86400 )    ; Minimum
 
 @	IN	NS	resolver2.fasterapple.com.
+*	IN	NS	google-public-dns-a.google.com.
+*	IN	NS	google-public-dns-b.google.com.
 appldnld	IN	CNAME appldnld.apple.ccgslb.com.cn.
 $INCLUDE db/adcdownload	adcdownload.apple.com.
 configuration	IN	A	23.13.188.224
