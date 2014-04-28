@@ -1,8 +1,6 @@
 English version of README is below.
 
-This project is available on [Github](https://github.com/tonyxue/fasterapple)!
-
-Now also on [GitCafe](https://gitcafe.com/tonyxue/fasterapple)!
+This project is available on [Github](https://github.com/tonyxue/fasterapple) and [GitCafe](https://gitcafe.com/tonyxue/fasterapple)!
 
 ##请将你的DNS服务器设置为42.121.236.241和74.117.62.158直接使用DNS服务
 
@@ -40,6 +38,6 @@ Contact
 E-mail:contact@fasterapple.com
 I speak English, Chinese, German and Swedish.
 
-TODO
-====
-- [ ] Solve the issue for other records of Apple.com
+Known issues
+============
+some subdomains of the apple.com cannot be resolved due to incomplete zone setting.
