@@ -23,3 +23,7 @@ I speak English, Chinese(Mandarin & Cantonese), German and Swedish.
 Known issues
 ============
 Some subdomains of the apple.com cannot be resolved due to incomplete zone setting.
+
+TO-DO
+=====
+- [ ] Set the configuration to forward other Apple.com queries that do not need acceleration to the original Apple nameserver.
